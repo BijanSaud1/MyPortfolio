@@ -6,7 +6,6 @@ import {
 	faGithub,
 	faLinkedin,
 	faInstagram,
-	faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
