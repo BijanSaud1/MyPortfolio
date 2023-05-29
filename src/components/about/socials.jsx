@@ -71,21 +71,6 @@ const Socials = () => {
 					<div className="social-text">Follow me on Instagram</div>
 				</a>
 			</div>
-			<div className="social">
-				<a
-					href={INFO.socials.stackOverflow}
-					target="_blank"
-					rel="noreferrer"
-				>
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faStackOverflow}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow me on Stackoverflow</div>
-				</a>
-			</div>
 
 			<div className="email">
 				<div className="email-wrapper">
