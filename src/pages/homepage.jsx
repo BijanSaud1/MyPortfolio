@@ -12,14 +12,14 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
+import Timeline from "../components/homepage/timeline";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+import myTimelines from "../data/timelines";
 
 import "./styles/homepage.css";
 
@@ -162,18 +162,18 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
+							<div className="homepage-timelines">
+								{myTimelines.map((timeline, index) => (
 									<div
-										className="homepage-article"
+										className="homepage-timeline"
 										key={(index +1).toString()}
 									>
-										<Article
+										<Timeline
 											key={(index +1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index +1)}
+											date={timeline().date}
+											title={timeline().title}
+											description={timeline().description}
+											link={"/timeline/" + (index +1)}
 										/>
 									</div>
 								))}

@@ -26,7 +26,7 @@ const INFO = {
 			"I've worked on a variety of projects over the years and I;m proud of the process that I have achieved. Many of the projects are in my GitHub and are available for other to explore. If you have any suggestions and feedback on my projects the please feel free to connect with me. I' am always open new ideas and thoughts to improve myself.",
 	},
 
-	articles: {
+	timelines: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",

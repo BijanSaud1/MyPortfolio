@@ -15,7 +15,7 @@ const SEO = [
 	},
 
 	{
-		page: "articles",
+		page: "timelines",
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 			keywords: ["Bijan", "Bijan S", "Bijan Saud"],
