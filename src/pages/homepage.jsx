@@ -16,6 +16,7 @@ import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
+
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -165,14 +166,14 @@ const Homepage = () => {
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
-										key={(index + 1).toString()}
+										key={(index +1).toString()}
 									>
 										<Article
-											key={(index + 1).toString()}
+											key={(index +1).toString()}
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											link={"/article/" + (index +1)}
 										/>
 									</div>
 								))}

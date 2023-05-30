@@ -2,15 +2,14 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "June 2018",
+		title: "Completed my A-Levels",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Studies A-Levels from 2016 - 2018",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Deployment",
+			"Bijan",
+			"Bijan Saud",
 		],
 		style: `
 				.article-content {
@@ -27,9 +26,9 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
+					<div className="paragraph">I Completed my A-Levels from St.Xaiers College in Nepal.</div>
 					<img
-						src="https://picsum.photos/200/300"
+						src="./college.jpg"
 						alt="random"
 						className="randImage"
 					/>
@@ -41,25 +40,121 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "2019",
+		title: "Joined University of Dallas ",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
+			"Studied Bachelors in Arts Major in Computer Science",
 		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
-		],
+				"Deployment",
+				"Bijan",
+				"Bijan Saud",
+			],
+		style: `
+					.article-content {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+					}
+	
+					.randImage {
+						align-self: center;
+						outline: 2px solid red;
+					}
+					`,
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<div className="article-content">
+					<div className="paragraph"></div>
+					<img
+						src="https://www.shutterstock.com/image-vector/group-people-laughing-lol-isolated-vector-1390409888"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
 			</React.Fragment>
 		),
 	};
 }
 
-const myArticles = [article_1, article_2];
+function article_3() {
+	return {
+		date: "2021",
+		title: "Transferred to University of Texas At Arlington ",
+		description:
+			"Studied Bacholers in Engineering Major in Software Engineering",
+		keywords: [
+				"Deployment",
+				"Bijan",
+				"Bijan Saud",
+			],
+		style: `
+					.article-content {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+					}
+	
+					.randImage {
+						align-self: center;
+						outline: 2px solid red;
+					}
+					`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph"></div>
+					<img
+						src="https://www.shutterstock.com/image-vector/group-people-laughing-lol-isolated-vector-1390409888"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_4() {
+	return {
+		date: "December 2023",
+		title: "Expected Graduation ! ! !",
+		description:
+			"Seeking opportunities in Software Developement, Software Architectural Design, Full Stack Development, Web Development, BackEnd Development, Mobile Application Development, and Microservices Development",
+		keywords: [
+				"Deployment",
+				"Bijan",
+				"Bijan Saud",
+			],
+		style: `
+					.article-content {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+					}
+	
+					.randImage {
+						align-self: center;
+						outline: 2px solid red;
+					}
+					`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph"></div>
+					<img
+						src="https://www.shutterstock.com/image-vector/group-people-laughing-lol-isolated-vector-1390409888"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+
+
+
+const myArticles = [article_1, article_2, article_3,article_4];
 
 export default myArticles;

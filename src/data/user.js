@@ -7,10 +7,10 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
+		twitter: "https://twitter.com/saud_bijan",
 		github: "https://github.com/BijanSaud1",
 		linkedin: "https://www.linkedin.com/in/bijan-saud-013838195/",
-		instagram: "https://instagram.com/",
+		instagram: "https://www.instagram.com/bloodbijan/",
 		facebook: "https://facebook.com/",
 	},
 
