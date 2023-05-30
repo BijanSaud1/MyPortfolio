@@ -11,21 +11,21 @@ const SEO = [
 		description:
 			"I am a full Stack developer with experties in Java, C#, and React. I have experierties in building sclable, secure and reliable web applications using various frameworks and teachnologies.",
 			
-			keywords: ["Bijan", "Bijan S", "Bijan Saud"],
+		keywords: ["Bijan", "Bijan S", "Bijan Saud"],
 	},
 
 	{
 		page: "timelines",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-			keywords: ["Bijan", "Bijan S", "Bijan Saud"],
+			"Chronological order of major Life events",
+		keywords: ["Bijan", "Bijan S", "Bijan Saud"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-			keywords: ["Bijan", "Bijan S", "Bijan Saud"],
+			"I've worked on a variety of projects over the years and I am proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
+		keywords: ["Bijan", "Bijan S", "Bijan Saud"],
 	},
 
 	{

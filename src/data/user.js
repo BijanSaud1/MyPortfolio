@@ -34,6 +34,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Dinning Review API | Under Production",
+			description:
+				"Dinning Review API is built using JAVA Spring Boot and Vue.js. In this project I am learning Vue.Js to develop FrontEnd. The Application gives user a way to review a Dining service and rate their service on a scale of 5, in terms of stars.", 
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "No view",
+			link: "",
+		},
+
+		{
 			title: "Employee Management System",
 			description:
 				"Employee Management System is a basic Management System that I developed using Java Spring Boot for the backend, SQL for database, and React for FrontEnd. This project performs all the CRUD operations. I also have used Spring Security with JSON webtoken for Authentication and Authorization.", 
@@ -54,7 +63,7 @@ const INFO = {
 		{
 			title: "Escape Room",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Escape Room is a 2D game developed using Unity. It is a puzzle game where a user is challanged with various tasks to complete. It is an interactive game based on level to complete just like SuperMario.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
 			linkText: "View Project",
 			link: "https://github.com/BijanSaud1/EscapeRoom",
@@ -63,7 +72,7 @@ const INFO = {
 		{
 			title: "Car Rentals",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Car Rentals is a Database Management System application developed using PHP and SQL. This project is part of Database course in UTA with fully functional API for rentals and cost on rentals.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
 			linkText: "View Project",
 			link: "https://github.com/BijanSaud1/EscapeRoom",
@@ -71,7 +80,7 @@ const INFO = {
 		{
 			title: "BlackJack",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A Fun project that I took on in order to use complex Strategy of Blackjack. This game is terminal based game without any API. But it works and is FUN !!.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/BijanSaud1/EscapeRoom",
