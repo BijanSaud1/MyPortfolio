@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -10,6 +11,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import Card from "../components/common/card";
 
 const About = () => {
 	useEffect(() => {
@@ -48,6 +50,40 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+
+								<Card className="card-skills"
+								icon={faBriefcase}
+								title="Skills"
+								body={
+								<div>
+									<div className="work">
+										
+										<div>
+										Java EE | React JS | Web Development (HTML, CSS, JavaScript) |
+										JPA (Hibernate) | React JS | Node JS | C# | Python | C++ |
+										Java Spring Boot | Integration Framework (REST API) |
+										PowerBI Dashboard | SQL | NO-SQL | Design Pattern | 
+										Project Tracking | Resource Allocation | Design Patterns
+									
+										</div>
+									</div>
+									<div className="work">
+									Java Spring Boot |  Integration Framework (REST API) | Junit | Mockito
+									</div>
+									<div>
+										Maven Development Tools | CRUD | Dependency Injection | Inversion Of Control |
+										JPA | JDBC | Docker | CI/CD | Unreal Engine | Design Patterns | UML Notations | 
+										Use case Diagram | MVC Design Model | GitHub | Presentation Skills |
+										Project Coordination | Project Planning | Resource Allocation | Project Management
+									</div>
+
+					
+									
+								</div>
+								
+								
+								}
+								/>
 							</div>
 
 							<div className="about-left-side">

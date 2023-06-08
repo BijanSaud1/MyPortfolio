@@ -64,10 +64,21 @@ function timeline_2() {
 		body: (
 			<React.Fragment>
 				<div className="timeline-content">
-					<div className="paragraph"></div>
+					<div className="paragraph">I joined University of Dallas, Majoring in Computer Science. I learn Racker Programming Language at the University.</div>
+					
+					<div>
+					<h4 className="">SKILLS</h4>
+						<ul>
+							<li>Object- Oriented Programming</li>
+							<li>Racket Programming Language</li>
+							<li>Algorithm and Data Structure</li>
+						
+
+						</ul>
+					</div>
 					<img
 						src="https://www.shutterstock.com/image-vector/group-people-laughing-lol-isolated-vector-1390409888"
-						alt="random"
+						alt="NoImage"
 						className="randImage"
 					/>
 				</div>
@@ -103,9 +114,22 @@ function timeline_3() {
 			<React.Fragment>
 				<div className="timeline-content">
 					<div className="paragraph"></div>
+					<div>
+						<h3>SKILLS</h3>
+						<ul>
+							<li>Object Oriented Programming Language</li>
+							<li>Data Structures and Algorithm</li>
+							<li>Assembly Level Language</li>
+							<li>Operating System</li>
+							<li>Information Security: <strong>Awaiting Certification</strong></li>
+							<li>Database and SQL-Query Language</li>
+							<li>Software Design Patterns</li>
+							<li>Project Management</li>
+						</ul>
+					</div>
 					<img
 						src="https://www.shutterstock.com/image-vector/group-people-laughing-lol-isolated-vector-1390409888"
-						alt="random"
+						alt="NoImage"
 						className="randImage"
 					/>
 				</div>
@@ -140,10 +164,10 @@ function timeline_4() {
 		body: (
 			<React.Fragment>
 				<div className="timeline-content">
-					<div className="paragraph"></div>
+					<div className="paragraph">I will graduate in December of 2023 from University of Texas At Arlington with a Bachelors Degree.</div>
 					<img
 						src="https://www.shutterstock.com/image-vector/group-people-laughing-lol-isolated-vector-1390409888"
-						alt="random"
+						alt="NoImage"
 						className="randImage"
 					/>
 				</div>

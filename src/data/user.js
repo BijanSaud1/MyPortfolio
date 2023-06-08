@@ -15,21 +15,21 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile Application developer: Aspiring Entrepreneur.",
+		title: "Full-Stack web and mobile Application developer: Aspiring Entrepreneur.",
 		description: "I am a Full-Stack developer with Experties in Java, C#, and React. I have experties in building sclable, secure, and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and foccus on learning new skills and technologies. I am passionate about creating high-quality code that follows best industry practices and standards. I am always seeking new challanges and opportunites to grow as a developer. ",
 			
 	},
 
 	about: {
-		title: "I'm Bijan Saud. I live in United States, where In my small appartment, I aspire to become an Developer and eventully an Entrepreneur.",
+		title: "I AM A DEVELOPER, BUILDER, AND LEARNER",
 		description:
-			"I've worked on a variety of projects over the years and I;m proud of the process that I have achieved. Many of the projects are in my GitHub and are available for other to explore. If you have any suggestions and feedback on my projects the please feel free to connect with me. I' am always open new ideas and thoughts to improve myself.",
+			"I am currently a Senior at The university of Texas at Arlington. I am currently Majoring in Software Engineering. I enjoy building softwares that solves problem. I've worked on a variety of projects over the years and I'am proud of the process that I have achieved. Many of the projects are in my GitHub and also available for others to explore. I'm always open to new ideas and thoughts to improve myself.",
 	},
 
 	timelines: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "I'm always open to develop and push boundries to learn, and build next generation softwares.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Chronological collection of my major life Events.",
 	},
 
 	projects: [
@@ -45,7 +45,8 @@ const INFO = {
 		{
 			title: "Employee Management System",
 			description:
-				"Employee Management System is a basic Management System that I developed using Java Spring Boot for the backend, SQL for database, and React for FrontEnd. This project performs all the CRUD operations. I also have used Spring Security with JSON webtoken for Authentication and Authorization.", 
+				"Employee Management System is the Basic Management System. It is built using Java Spring Booot Framework (Backend), React (FrontEnd), and SQL (Database). This project can perform all the CRUD operations using Axios to make HTTP requests.",
+				
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/BijanSaud1/EmployeeManagementSystem",
@@ -54,7 +55,7 @@ const INFO = {
 		{
 			title: "Corp Catch",
 			description:
-				"Corp Catch is a Simple Mobile game Application developed for US-ARMY. In this Applicaiton We used Android Studio for developement using Dart and Flutter, and Firebase for database. With login and register setup Corp Catch allows user to chose a tail from the list of trails and take on a journey with interative trail question to earn Corp Coin.",
+			" Copr Catch is a Mobile Game developed for US-ARMY. In this Application our team of 4 used Android Studio, Dart and Flutter, and Firebase(Database). This application allows user to choose a trail and navigate through the trail accomplished using Google Map API.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com/BijanSaud1/CoprCatch",
