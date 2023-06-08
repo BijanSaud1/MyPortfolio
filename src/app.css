@@ -18,7 +18,7 @@
 }
 
 .page-content {
-	background-color: rgb(186, 180, 209);
+	background-color: rgb(202, 202, 203);
 	position: relative;
 }
 
@@ -29,8 +29,8 @@
 	top: 0;
 	bottom: 0;
 	width: calc((100% - 1200px) / 2);
-	background-color: rgb(186, 180, 209);
-	border: 1px solid rgb(186, 180, 209);
+	background-color: rgb(202, 202, 203);
+	border: 1px solid rgb(202, 202, 203);
 }
 
 .page-content:before {

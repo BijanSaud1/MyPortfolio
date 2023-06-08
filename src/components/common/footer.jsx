@@ -28,7 +28,7 @@ const Footer = () => {
 				</div>
 
 				<div className="footer-credits">
-					<div className="footer-credits-text">
+					<div className="footer-credits-text color:black">
 						© 2023 BijanSaud.dev. All Rights Reserved to Owner.
 					</div>
 				</div>
